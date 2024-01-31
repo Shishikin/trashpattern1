@@ -1,0 +1,3 @@
+C:/AlexandrSpivakov/Patern/antipattern/build/CMakeFiles/antipattern.dir
+C:/AlexandrSpivakov/Patern/antipattern/build/CMakeFiles/ALL_BUILD.dir
+C:/AlexandrSpivakov/Patern/antipattern/build/CMakeFiles/ZERO_CHECK.dir

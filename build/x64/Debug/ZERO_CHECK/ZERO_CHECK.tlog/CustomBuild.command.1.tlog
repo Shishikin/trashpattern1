@@ -1,0 +1,10 @@
+^C:\ALEXANDRSPIVAKOV\PATERN\ANTIPATTERN\BUILD\CMAKEFILES\C39232D0DCAF4D8CCF98CC59B5324468\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/AlexandrSpivakov/Patern/antipattern -BC:/AlexandrSpivakov/Patern/antipattern/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/AlexandrSpivakov/Patern/antipattern/build/antipattern.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
